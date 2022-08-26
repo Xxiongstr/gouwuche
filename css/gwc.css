@@ -1,0 +1,334 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: #F5F5F5;
+}
+ul li{
+    list-style: none;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #979a9c;
+}
+.head{
+    width: 100%;
+    border-bottom: 2px solid #FF6700;
+}
+.container{
+    width: 1200px;
+    margin: 0px auto;
+}
+.side{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.headleft{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.headleft span{
+    margin: auto 10px;
+}
+.headright{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.headright li{
+    margin-left: 13px;
+    width: 10%;
+    font-size: 10px;
+    color: #979a9c;
+    border-right: 2px solid #979a9c ;
+}
+.headright li:last-child{
+    border-style: none;
+}
+.content{
+    margin-top: 30px;
+    width: 100%;
+    padding-bottom: 40px;
+    background-color: white;
+}
+.content table{
+    width: 100%;
+}
+
+#trone{
+    border: 2px solid red;
+}
+.content td:not(.tdtwo){
+    text-align: center;
+}
+.content td{
+    height: 90px;
+}
+.content tr td:first-child input{
+    width: 30px;
+    height: 30px;
+}
+.content tbody tr td:nth-child(4) input{
+    text-align: center;
+    width: 80px;
+    height: 38px;
+    background-color: white;
+    border:1px solid #ccc;
+    outline-color:#ccc;
+    border-left-style:none ;
+    border-right-style: none;
+}
+.content td img{
+    width: 100px;
+}
+.content td button{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid #ccc;
+}
+.content td button:first-child{
+    border-right-style: none;
+}
+.content td button:last-child{
+    border-left-style: none;
+}
+.shopping{
+    position: relative;
+    margin-top: 20px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+.shopping span{
+    color: red;
+}
+.shopping .shoppingleft{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.shopping .shoppingright{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.shopping .shoppingleft li{
+    width: 15%;
+    text-align: center;
+    border-left: 1px solid #ccc;
+}
+.shopping .shoppingright li{
+    padding-left: 10px;
+    margin: 0px 10px;
+}
+.shopping .shoppingleft li:first-child{
+    border-style: none;
+}
+.shopping .shoppingright li:first-child{
+    height: 100%;
+    text-align: center;
+    line-height: 50px;
+}
+.shopping .shoppingright li:first-child #money{
+    font-size: 30px;
+}
+.shopping .shoppingright li:last-child{
+    margin-right: 0px;
+    width: 33%;
+    height: 100%;
+}
+.shopping .shoppingright li:last-child button{
+    width: 100%;
+    height: 100%;
+    background-color:#E0E0E0;
+    border-style: none;
+}
+.bigdiv{
+    margin-top: 20px;
+    width: 100%;
+}
+.bigdiv ul{
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.bigdiv ul li{
+    margin: 5px auto;
+    width: 19%;
+    height: 250px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.bigdiv ul li p{
+    display: flex;
+    flex-direction: column;
+}
+.bigdiv ul li p span{
+    display: block;
+    margin-top: 5px;
+}
+.bigdiv ul li p span:first-child{
+    color: black;
+    font-size: 13px;
+}
+.bigdiv ul li p span:nth-child(2){
+    color: #FF6700;
+    font-size: 13px;
+}
+.bigdiv ul li p span:nth-child(3){
+    color: #ccc;
+    font-size: 13px;
+    height: 25px;
+    display: block;
+    /* border: 1px solid red; */
+}
+.bigdiv ul li button{
+    width: 80px;
+    height: 30px;
+    background-color: white;
+    border: 2px solid #FF6700;
+    color: #FF6700;
+    /* border-style: none; */
+
+}
+.bigdiv ul li button:hover{
+    background-color: #FF6700;
+    color: white;
+}
+.hr{
+    
+    border-top: 1px solid #ccc;
+    width: 100%;
+    margin-top: 60px;
+    position: relative;
+    /* border: 1px solid red; */
+    height: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#span{
+    text-align: center;
+    background-color: #f5f5f5;
+    width: 300px;
+    position: absolute;
+    color: #ccc;
+    font-size: 20px;
+    /* border: 1px solid red; */
+    bottom: 25px;
+}
+.no-select-tip{
+width: 200px;
+    height: 48px;
+    line-height: 48px;
+    position: absolute;
+    top: -58px;
+    right: 0;
+    background-color: #fff;
+    border: 1px solid #ff6700;
+    color: #ff6700;
+    text-align: center;
+}
+.no-select-tip .arrow-a{
+    bottom: -8px;
+    margin-left: -10px;
+    border-width: 8px 10px 0;
+    border-color: #ff6700 rgba(0,0,0,0) rgba(0,0,0,0);
+    z-index: 1;
+}
+
+.no-select-tip .arrow{
+    display: block;
+    width: 0;
+    height: 0;
+    border-style: solid dashed dashed;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+}
+.no-select-tip .arrow-b{
+bottom: -7px;
+margin-left: -8px;
+border-width: 7px 8px 0;
+border-color: #fff rgba(0,0,0,0) rgba(0,0,0,0);
+z-index: 2;
+}
+#aler{
+    display: none;
+}
+.bigdingwei{
+    visibility: hidden;
+    z-index: 999;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(63, 62, 62, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.istrue{
+    width: 600px;
+    height: 250px;
+}
+.istop{
+    width: 100%;
+    height: 60%;
+    background: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.isbotton{
+    width: 100%;
+    height: 40%;
+    background: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.istop p{
+    font-size: 20px;
+}
+.isbotton button{
+    margin: 0px 15px;
+}
+.isbotton button:first-child{
+    width: 150px;
+    height: 35px;
+    background: #FF6700;
+    color: white;
+    border-style: none;
+}
+.isbotton button:last-child{
+    width: 150px;
+    height: 35px;
+    background: #B0B0B0;
+    color: white;
+    border-style: none;
+}
+.tr .del i:hover{
+    color: red;
+}
